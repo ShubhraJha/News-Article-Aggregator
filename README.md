@@ -144,9 +144,7 @@ Main application file.
 - Manages favorites
 
 - Shows weather info
-
-🔹 fetch_news.py
-
+  
 News ingestion pipeline.
 
 - Fetches RSS feeds
