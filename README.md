@@ -1,10 +1,10 @@
-📰 AI News Aggregator & Summarizer
+## 📰 AI News Aggregator & Summarizer
 
 An AI-powered news aggregation and semantic search platform that collects real-time articles from multiple global news sources, intelligently compresses content, and delivers relevant results using embedding-based semantic search.
 
 Built with Streamlit, RSS feeds, NLP, and vector similarity search.
 
-🚀 Overview
+## 🚀 Overview
 
 - AI News Aggregator & Summarizer is a full-stack AI news application that:
 
@@ -24,7 +24,7 @@ Built with Streamlit, RSS feeds, NLP, and vector similarity search.
 
 This project combines web scraping, NLP, vector search, and UI development into one intelligent system.
 
-🌍 News Sources Integrated
+## 🌍 News Sources Integrated
 
 Articles are collected from major international and Indian sources including:
 
@@ -57,7 +57,7 @@ Articles are collected from major international and Indian sources including:
 - TechCrunch
 
 🧠 Core Features
-🔎 Multi-Query Semantic Search
+## 🔎 Multi-Query Semantic Search
 
 - Enter multiple search queries (one per line)
 
@@ -65,7 +65,7 @@ Articles are collected from major international and Indian sources including:
 
 - Returns most relevant articles (not keyword match)
 
-📰 Intelligent Article Extraction
+## 📰 Intelligent Article Extraction
 
 - Uses RSS feeds
 
@@ -73,7 +73,7 @@ Articles are collected from major international and Indian sources including:
 
 - Handles fallback summaries if extraction fails
 
-✂️ Smart Text Compression
+## ✂️ Smart Text Compression
 
 - Tokenizes article into sentences
 
@@ -83,7 +83,7 @@ Articles are collected from major international and Indian sources including:
 
 - Improves embedding accuracy
 
-🤖 AI-Style Summarized Output
+## 🤖 AI-Style Summarized Output
 
 - Displays compressed article text
 
@@ -93,7 +93,7 @@ Articles are collected from major international and Indian sources including:
 
 - Provides direct article link
 
-🔥 Trending & Recommendations
+## 🔥 Trending & Recommendations
 
 - Sorted by relevance score
 
@@ -101,7 +101,7 @@ Articles are collected from major international and Indian sources including:
 
 - Dynamic display logic
 
-🌤 Live Weather Personalization
+## 🌤 Live Weather Personalization
 
 - Detects user location via IP
 
@@ -131,6 +131,8 @@ Semantic Similarity Search
     ↓
 Ranked Results Displayed in Streamlit
 ```
+## 🔍 File Explanation
+## 🔹app.py
 Main application file.
 
 - Builds UI
@@ -145,6 +147,7 @@ Main application file.
 
 - Shows weather info
   
+## 🔹fetch_news.py
 News ingestion pipeline.
 
 - Fetches RSS feeds
@@ -157,7 +160,7 @@ News ingestion pipeline.
 
 - Saves to compressed_news.json
 
-🔹 semantic_search.py
+## 🔹semantic_search.py
 
 - Search engine logic.
 
@@ -168,8 +171,8 @@ News ingestion pipeline.
 - Builds FAISS index
 
 - Performs similarity search
-- 
-🛠 Technologies Used
+  
+## 🛠 Technologies Used
 
 - Python
 
@@ -189,7 +192,8 @@ News ingestion pipeline.
 
 - REST APIs
 
-▶️ How to Run
+## ▶️ How to Run
+
 1️⃣ Install dependencies
 pip install -r requirements.txt
 
@@ -221,13 +225,13 @@ This project demonstrates:
 
 - Interactive UI design
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 - Transformer-based summarization
 
 - Cloud deployment
 
-- Database integration (MongoDB / PostgreSQL)
+- Database integration (PostgreSQL)
 
 - User authentication
 
@@ -235,7 +239,7 @@ This project demonstrates:
 
 - Real-time auto refresh
 
-- Deploy on Streamlit Cloud / AWS
+- Deploy on Streamlit Cloud
   
 👩‍💻 Author
 Shubhra Jha
