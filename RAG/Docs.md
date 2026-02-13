@@ -62,7 +62,7 @@ The application currently supports a mix of global and Indian news sources:
 ---
 
 ## 5. Project Architecture
-```RSS Feeds
+RSS Feeds
 ↓
 Article Extraction
 ↓
@@ -76,7 +76,7 @@ User Query
 ↓
 Semantic Similarity Search
 ↓
-Ranked Results Displayed in Streamlit```
+Ranked Results Displayed in Streamlit
 
 
 ## 6. File Structure & Description
