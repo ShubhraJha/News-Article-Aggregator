@@ -130,20 +130,6 @@ Semantic Similarity Search
     ↓
 Ranked Results Displayed in Streamlit
 
-📂 Project Structure
-AI-News-Aggregator-Summarizer/
-│
-├── app.py                # Main Streamlit UI
-├── fetch_news.py         # RSS + article extraction + compression
-├── semantic_search.py    # Embeddings + FAISS search engine
-├── weather.py            # Location-based weather
-├── compressed_news.json  # Stored compressed dataset
-├── favorites.json        # Saved articles
-└── requirements.txt
-
-🔍 File Explanation
-🔹 app.py
-
 Main application file.
 
 - Builds UI
