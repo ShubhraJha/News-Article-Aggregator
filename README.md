@@ -67,11 +67,11 @@ Articles are collected from major international and Indian sources including:
 
 📰 Intelligent Article Extraction
 
-Uses RSS feeds
+- Uses RSS feeds
 
-Extracts full article text using newspaper3k
+- Extracts full article text using newspaper3k
 
-Handles fallback summaries if extraction fails
+- Handles fallback summaries if extraction fails
 
 ✂️ Smart Text Compression
 
