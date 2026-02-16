@@ -6,4 +6,5 @@ sentence-transformers==2.2.2
 faiss-cpu==1.7.4
 requests==2.31.0
 numpy==1.25.2
-python-dotenv
+python-dotenv==1.2.1
+
